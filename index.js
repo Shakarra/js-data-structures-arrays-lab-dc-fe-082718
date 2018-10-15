@@ -6,7 +6,9 @@ function destructivelyAppendDriver(name) {
 
 // drivers;
 
-// drivers.unshift('Bob');
+function destructivelyPrependDriver(name) {
+  drivers.unshift(name);
+}
 // drivers.pop();
 // drivers.shift();
 // allDrivers = [...drivers, 'Broom'];
