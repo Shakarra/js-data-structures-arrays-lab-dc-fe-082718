@@ -17,7 +17,8 @@ drivers.pop();
 function destructivelyRemoveFirstDriver() {
   drivers.shift();
 }
-// allDrivers = [...drivers, 'Broom'];
+
+function allDrivers = [...drivers, 'Broom'];
 // allDrivers = ['Arnold', ...drivers];
 // drivers.slice(-1);
 // drivers.slice(1);
